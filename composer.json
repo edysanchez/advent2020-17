@@ -1,0 +1,24 @@
+{
+    "name": "advent2020-17/php",
+    "description": "Advent of Code 2020 day 17",
+    "keywords": ["kata","TDD"],
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "9.*"
+    },
+    "authors": [
+        {
+            "name": "Edgar Sanchez",
+            "email": "edysanchez@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}
